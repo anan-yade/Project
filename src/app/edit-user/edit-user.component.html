@@ -1,1 +1,42 @@
-<p>edit-user works!</p>
+<div class="container mx-auto">
+    <p>{{currentData.name}}</p>
+    <div class="card shadow mt-5 text-center w-50">
+        <div class="card-body errorMsg">
+            <form #ref="ngForm" [formGroup]="modifiedUserData" (submit)="onSubmit()" >
+    
+                <!-- username  -->
+                <div class="mb-3 ">
+                    <input type="text" class="form-control"  formControlName="name"  [value]="currentData.name" >
+                    <!-- Error handling  -->
+                    
+                </div>
+
+                <!-- email  -->
+
+                <div class="mb-3 ">
+                    <input type="email" class="form-control" [value]="currentData.email" formControlName="email" >
+                    <!-- Error handling  -->
+            
+                </div>
+
+                 <!-- phone no  -->
+                 <div class="mb-3 ">
+                    <input type="text" class="form-control" value="{{currentData.phoneno}}" formControlName="phoneno" >
+                    <!-- Error handling  -->
+                </div>
+
+                <!-- age  -->
+                <div class="mb-3 ">
+                    <input type="number" class="form-control" [defaultValue]="currentData.age"  formControlName="age" >
+                    <!-- Error handling  -->
+                </div>
+
+
+                <button type="submit" class="btn btn-primary me-3">Update</button>
+
+                
+            </form>
+        </div>
+    </div>
+
+</div>

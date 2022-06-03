@@ -1,1 +1,26 @@
-<p>user-list works!</p>
+<table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">User ID</th>
+      <th scope="col" sortable="name" >Full Name</th>
+      <th scope="col" sortable="area" >Email</th>
+      <th scope="col" sortable="population" >Phone No.</th>
+      <th scope="col" sortable="population" >Age</th>
+      <th scope="col" sortable="population" >Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let user of allUsers">
+      <th scope="row">{{ user.userid }}</th>
+      <td>
+        
+        {{ user.name }}
+      </td>
+      <td>{{ user.email  }}</td>
+      <td>{{ user.phoneno  }}</td>
+      <td>{{ user.age }}</td>
+      <td> <button class="btn btn-primary" (click)="editUser(user)">Edit</button> </td>
+    </tr>
+    </tbody>
+  </table>
+
