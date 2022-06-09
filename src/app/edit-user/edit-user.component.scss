@@ -1,0 +1,124 @@
+
+input{
+    background-color:transparent;
+    color:white;
+    
+  }
+  input[type=text] {
+   
+    background-color: transparent;
+    color:whitesmoke;
+  }
+  
+  input[type=email] {
+   
+    background-color: transparent;
+    color:whitesmoke;
+  }
+  
+  .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: transparent;
+  }
+  main {
+   
+  // background-image:url("https://th.bing.com/th/id/R.aead3c1131ae6861aa5d927154693b37?rik=kHgGoKoNWH4t7Q&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f699%2f241%2f69%2fpink-snowed-mountains-4K-wallpaper.jpg&ehk=oviBnTGIT9vo%2fACJV9R2DxJcbIxSeFMf6S006l8zst8%3d&risl=&pid=ImgRaw&r=0") ;
+   //background: linear-gradient(to  bottom left, black 80%, #aaa39f 100%);
+  // background-color:pink ;
+  //background-image: url("https://demo.newtodesign.com/full-page-login/bg-image.jpeg")
+  //,url("https://i.pinimg.com/originals/5c/6b/b0/5c6bb0f1d6b13c9c8318d20ae7a5de57.jpg");
+  background-image: url("https://th.bing.com/th/id/R.718c3256498e9bfe96034d75ea9659f5?rik=Q5jOLT3DLzmvKA&riu=http%3a%2f%2fs1.bwallpapers.com%2fwallpapers%2f2014%2f03%2f04%2fpink-landscape-desktop-wallpaper_112124349.jpg&ehk=qVvJHwJGnQeF1c30H5iwopTNBtjjNGYaOf4QPhXnSYE%3d&risl=&pid=ImgRaw&r=0");
+  //background-image: url("https://www.vactualpapers.com/web/wallpapers/pink-mountain-abstract-hd-wallpaper/1920x1080.jpg");
+    height: 100vh;
+   // margin: 3rem 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   // padding: 1rem 0.5rem;
+   background-repeat: no-repeat;
+    background-size:  100%;
+    
+    
+    
+  }
+  
+         
+  button{
+    background-color:rgba(172, 103, 172, 0.733);
+    border-radius: 25px;
+    font-size: 1rem;
+    width:5rem;
+  }
+  hr{
+    color:wheat;
+   
+  }
+  .hi{
+  background-color: black;
+  }
+  .bye{
+    background-color: aquamarine;
+  }
+  form{
+    //background-image:linear-gradient(to  left,#ff6600 80%, black 100%, );
+    //background: linear-gradient(to  bottom left, #FF6600 80%, black 100%);
+    //background-color:white;
+    background-color: rgba(7, 7, 7, 0.822);
+   
+    border-radius: 40px;
+    //box-shadow: 4px 5px #a79090;
+    box-shadow: 4px 5px 18px #dff0f0;
+    padding: 1rem 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+   // width:100%;
+   // color:gainsboro
+  }
+  
+  
+  h3{
+    color:purple;
+  }
+  img
+  {
+    border-radius: 50%;
+  }
+  
+  i{
+    color:white;
+  }
+  
+    @media (min-width: 768px) and (max-width: 1000px) 
+    {
+  .lname
+    {
+        margin-left: 2rem;
+    }
+  }
+  
+  @media (min-width: 576px)
+  {
+  .form{
+  
+  
+  .col-sm-8 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+  }
+  }
+  
+  @media (min-width: 296px)
+  {
+  .form{
+  
+  
+  .col-xs-11 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+  }
+  
+  }
+  

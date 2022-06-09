@@ -1,0 +1,120 @@
+.card{
+    //width: 100%;
+    background-color: rgb(228, 149, 180,0.664);
+    color:black;
+    
+}
+hr{
+  color: purple
+}
+
+
+
+main{
+ background-image: url("https://ld-wp.template-help.com/rockthemes/20344/wp-content/uploads/2018/07/bg-contacts.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ // background-image: url("https://images.pexels.com/photos/3750893/pexels-photo-3750893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ //background-image: url("https://mixkit.imgix.net/videos/preview/mixkit-snow-covered-hill-in-a-pine-forest-3339-0.jpg?q=80&auto=format%2Ccompress");
+}
+
+
+
+  a {
+    position: relative;
+    text-decoration: none;
+   // color: rgba(228, 149, 181, 0.664);
+   color:white;
+    box-shadow: 0 0 0 2px rgb(53, 3, 54);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    transition: color .5s ease-in-out;
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease-in-out;
+    z-index: -1;
+  }
+  a:hover {
+    color: black;
+  }
+  a:hover::before {
+    transform: scaleX(1);
+  }
+p{
+    color:black
+}
+h1{
+   color:purple;
+}
+i{
+    font-size:48px;
+}
+img{
+    background-color: black;
+    width:100%;
+    height:200px;
+}
+
+.row{
+    padding:0;
+    width:100%
+}
+
+/*input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color:transparent;
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }*/
+
+  input{
+    background-color:transparent;
+    
+    box-shadow: none;
+  }
+  
+  input[type=email] {
+  
+  border: none;
+  //background-color: transparent;
+  border-bottom: 2px solid black;
+  box-shadow: none;
+}
+
+input[type=text] {
+    border:none;
+    // background-color: transparent;
+     border-bottom: 2px solid black;
+     box-shadow: none;
+
+   }
+
+   input[type=textarea] {
+    border:none;
+    // background-color: transparent;
+     border-bottom: 2px solid black;
+     box-shadow: none;
+
+   }
+
+  
+  
